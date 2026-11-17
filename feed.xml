@@ -7,6 +7,10 @@
     <description>毎日のセキュリティニュースを、よか（進行）ととよ（解説）の2人で5〜8分にまとめて届ける番組。声はVOICEVOX（よか＝春日部つむぎ、とよ＝小夜/SAYO）。</description>
     <language>ja</language>
     <itunes:author>よか＆とよ</itunes:author>
+    <itunes:owner>
+      <itunes:name>よか＆とよ</itunes:name>
+      <itunes:email>6883zkwk@jcom.zaq.ne.jp</itunes:email>
+    </itunes:owner>
     <itunes:image href="https://nodokaha.github.io/security-news-podcast/cover.jpg"/>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
