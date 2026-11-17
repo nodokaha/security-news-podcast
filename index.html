@@ -2,14 +2,61 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>セキュリティニュースまとめ</title>
+<style>
+  body { font-family: sans-serif; margin: 0; background: #fdf8f2; color: #333; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { text-align: center; }
+  header img { width: 240px; height: 240px; border-radius: 24px; }
+  h1 { font-size: 1.6em; margin: 16px 0 8px; }
+  h2 { font-size: 1.2em; margin-top: 40px; border-bottom: 2px solid #f0c9a6; padding-bottom: 6px; }
+  .desc { line-height: 1.7; }
+  .cast { display: flex; gap: 12px; justify-content: center; margin: 16px 0; flex-wrap: wrap; }
+  .cast div { background: #fff; border: 1px solid #eee0d0; border-radius: 12px; padding: 10px 16px; }
+  .episode { background: #fff; border: 1px solid #eee0d0; border-radius: 12px; padding: 16px; margin: 12px 0; }
+  .episode h3 { margin: 0 0 6px; font-size: 1.05em; }
+  .episode .meta { color: #888; font-size: 0.85em; margin-bottom: 8px; }
+  .episode p { line-height: 1.7; font-size: 0.95em; }
+  audio { width: 100%; margin-top: 8px; }
+  .links { text-align: center; margin: 20px 0; line-height: 2; }
+  a { color: #c96a1e; }
+  .empty { color: #999; }
+  footer { text-align: center; color: #aaa; font-size: 0.85em; margin-top: 48px; }
+</style>
 </head>
 <body>
-<h1>セキュリティニュースまとめ</h1>
-<p>毎日のセキュリティニュースを、よか（進行）ととよ（解説）の2人で5〜8分にまとめて届ける番組。声はVOICEVOX（よか＝春日部つむぎ、とよ＝小夜/SAYO）。</p>
-<p>ポッドキャストアプリで購読するには、このフィードURLを登録してください：<a href="feed.xml">feed.xml</a></p>
-<ul>
-<li>第1回「認証の落とし穴」（2026年11月17日）: <a href="ep1.mp3">ep1.mp3</a></li>
-</ul>
+<main>
+  <header>
+    <img src="cover.jpg" alt="セキュリティニュースまとめ カバー">
+    <h1>セキュリティニュースまとめ</h1>
+    <p class="desc">毎日のセキュリティニュースを、よか（進行）ととよ（解説）の2人で5〜8分にまとめて届ける番組。声はVOICEVOX（よか＝春日部つむぎ、とよ＝小夜/SAYO）。</p>
+  </header>
+
+  <div class="cast">
+    <div><strong>よか</strong>（進行）</div>
+    <div><strong>とよ</strong>（解説）</div>
+  </div>
+
+  <div class="links">
+    ポッドキャストアプリで購読：<a href="feed.xml">RSSフィード</a> ／ <a href="https://open.spotify.com/show/1ldjnaTqPKiwFxJjxa2s5Q">Spotifyで聴く</a>
+  </div>
+
+  <h2>エピソード</h2>
+  <!-- episodes: 新しい回はこの下の先頭に追加する -->
+  <div class="episode">
+    <h3>第1回「認証の落とし穴」（2026年11月17日）</h3>
+    <div class="meta">6分10秒</div>
+    <p>認証バイパス3件（Apache Shiro CVE-2026-129349、Cyrus SASL CVE-2026-129483、DrayTek Vigor2960の脆弱性5件）、パスキー実装調査（USENIX Security '26、検証した103サイト全てに不備）、情報漏えい続報（日清食品LINE約137万件、一番くじ約41万件、ミツモア最大約37万件）、WordPressプラグイン2件（Lazy Blocks CVE-2026-127048、Auth Armor CVE-2026-110960）。テーマは、認証は仕組みより実装と運用。</p>
+    <audio controls preload="metadata" src="ep1.mp3"></audio>
+    <p><a href="ep1.mp3">MP3をダウンロード</a></p>
+  </div>
+
+  <h2>今日のチラシ</h2>
+  <!-- flyers: 新しいチラシはこの下の先頭に追加する -->
+  <p class="empty">チラシは毎朝ここに追加されます。</p>
+
+  <footer>セキュリティニュースまとめ ― よか＆とよ</footer>
+</main>
 </body>
 </html>
