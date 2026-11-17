@@ -15,6 +15,15 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>セキュリティニュースまとめ：見慣れた場所ほど、気をつけて（2026年11月18日）</title>
+      <description>第3回「見慣れた場所ほど、気をつけて」。Javaの重大な欠陥「Java4Shell」（CVE-2026-114938）、楽天証券の最大約447万口座の情報漏洩の可能性、Optimizely経由の有名サイト攻撃（iPhone狙い）、レゴランド・ジャパンの顧客情報漏洩。テーマは、見慣れた場所ほど、気をつけて。</description>
+      <pubDate>Wed, 18 Nov 2026 08:00:00 +0900</pubDate>
+      <guid isPermaLink="false">sekiyurithi-news-ep3-20261118</guid>
+      <enclosure url="https://nodokaha.github.io/security-news-podcast/ep3.mp3" length="5340717" type="audio/mpeg"/>
+      <itunes:duration>5:34</itunes:duration>
+      <itunes:image href="https://nodokaha.github.io/security-news-podcast/cover.jpg"/>
+    </item>
+    <item>
       <title>セキュリティニュースまとめ：認証の落とし穴（2026年11月17日）</title>
       <description>第1回「認証の落とし穴」。認証バイパス3件（Apache Shiro CVE-2026-129349、Cyrus SASL CVE-2026-129483、DrayTek Vigor2960の脆弱性5件）、パスキー実装調査（USENIX Security '26、検証した103サイト全てに不備）、情報漏えい続報（日清食品LINE約137万件、一番くじ約41万件、ミツモア最大約37万件）、WordPressプラグイン2件（Lazy Blocks CVE-2026-127048、Auth Armor CVE-2026-110960）。テーマは、認証は仕組みより実装と運用。</description>
       <pubDate>Tue, 17 Nov 2026 08:00:00 +0900</pubDate>
