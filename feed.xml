@@ -15,6 +15,15 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>セキュリティニュースまとめ：一つの穴から、いくつもの会社へ（2026年11月21日）</title>
+      <description>第6回「一つの穴から、いくつもの会社へ」。プレイド「KARTE」の不正アクセスで三井住友銀（最大約1,400万件）、丸井（1,700万件超）、東京ガス（最大4万9,000人分）など複数社で一斉に情報漏えい。米CISAが「悪用確認」の一覧に4件追加（期限11月23日、家庭用NASの期限は今日11月21日）。WordPress 7.1.5（20件の弱点修正）。nginxの続報（乗っ取りの手順が公開、豪州政府が悪用を把握）。テーマは、一つの穴から、いくつもの会社へ。</description>
+      <pubDate>Sat, 21 Nov 2026 08:00:00 +0900</pubDate>
+      <guid isPermaLink="false">sekiyurithi-news-ep6-20261121</guid>
+      <enclosure url="https://nodokaha.github.io/security-news-podcast/ep6.mp3" length="7225773" type="audio/mpeg"/>
+      <itunes:duration>7:31</itunes:duration>
+      <itunes:image href="https://nodokaha.github.io/security-news-podcast/cover.jpg"/>
+    </item>
+    <item>
       <title>セキュリティニュースまとめ：更新は、まとめて今のうちに（2026年11月20日）</title>
       <description>第5回「更新は、まとめて今のうちに」。PHPのセキュリティリリース（修正版 8.5.13 / 8.4.28 / 8.3.37 / 8.2.36、17件のうち7件が最も深刻）、ノジマの情報漏えい第2報（総計7,179,818名）、Chrome 158（204件の弱点修正、うち6件が最も深刻）。テーマは、更新は、まとめて今のうちに。</description>
       <pubDate>Fri, 20 Nov 2026 08:00:00 +0900</pubDate>
