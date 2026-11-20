@@ -15,6 +15,15 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>セキュリティニュースまとめ：更新は、まとめて今のうちに（2026年11月20日）</title>
+      <description>第5回「更新は、まとめて今のうちに」。PHPのセキュリティリリース（修正版 8.5.13 / 8.4.28 / 8.3.37 / 8.2.36、17件のうち7件が最も深刻）、ノジマの情報漏えい第2報（総計7,179,818名）、Chrome 158（204件の弱点修正、うち6件が最も深刻）。テーマは、更新は、まとめて今のうちに。</description>
+      <pubDate>Fri, 20 Nov 2026 08:00:00 +0900</pubDate>
+      <guid isPermaLink="false">sekiyurithi-news-ep5-20261120</guid>
+      <enclosure url="https://nodokaha.github.io/security-news-podcast/ep5.mp3" length="5763885" type="audio/mpeg"/>
+      <itunes:duration>6:00</itunes:duration>
+      <itunes:image href="https://nodokaha.github.io/security-news-podcast/cover.jpg"/>
+    </item>
+    <item>
       <title>セキュリティニュースまとめ：見えない土台の穴が、暮らしに届く（2026年11月19日）</title>
       <description>第4回「見えない土台の穴が、暮らしに届く」。NGINXのHTTP/2の深刻な弱点2件（CVE-2026-123007、CVE-2026-123633）、楽天証券の情報漏洩の続報（最大1,572万口座、テスト環境のデータに伏せ字なし）、米CISAが「悪用確認」の一覧に4件追加（家庭用NASのSynology DSM CVE-2024-10441を含む）、WordPressプラグインWP Duplicateの弱点。テーマは、見えない土台の穴が、暮らしに届く。</description>
       <pubDate>Thu, 19 Nov 2026 08:00:00 +0900</pubDate>
