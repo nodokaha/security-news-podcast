@@ -6,7 +6,17 @@
 <title>セキュリティニュースまとめ</title>
 <style>
   body { font-family: sans-serif; margin: 0; background: #fdf8f2; color: #333; }
-  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+  .layout { display: flex; gap: 24px; max-width: 1120px; margin: 0 auto; padding: 24px 16px 48px; align-items: flex-start; }
+  .sidebar { width: 270px; flex: none; position: sticky; top: 16px; background: #fff; border: 1px solid #eee0d0; border-radius: 12px; padding: 16px; max-height: calc(100vh - 32px); overflow: auto; box-sizing: border-box; }
+  .sidebar .side-head { text-align: center; }
+  .sidebar .side-head img { width: 96px; height: 96px; border-radius: 16px; }
+  .sidebar .side-head .side-title { font-weight: bold; margin-top: 8px; line-height: 1.5; }
+  .sidebar h2 { font-size: 1em; margin: 20px 0 8px; border-bottom: 2px solid #f0c9a6; padding-bottom: 4px; }
+  .sidebar ul { list-style: none; margin: 0; padding: 0; }
+  .sidebar li { margin: 10px 0; line-height: 1.5; font-size: 0.92em; }
+  .sidebar li span { display: block; color: #888; font-size: 0.82em; }
+  .sidebar .side-links { line-height: 2; font-size: 0.92em; }
+  main { flex: 1; min-width: 0; max-width: 720px; }
   header { text-align: center; }
   header img { width: 240px; height: 240px; border-radius: 24px; }
   h1 { font-size: 1.6em; margin: 16px 0 8px; }
@@ -14,7 +24,7 @@
   .desc { line-height: 1.7; }
   .cast { display: flex; gap: 12px; justify-content: center; margin: 16px 0; flex-wrap: wrap; }
   .cast div { background: #fff; border: 1px solid #eee0d0; border-radius: 12px; padding: 10px 16px; }
-  .episode { background: #fff; border: 1px solid #eee0d0; border-radius: 12px; padding: 16px; margin: 12px 0; }
+  .episode { background: #fff; border: 1px solid #eee0d0; border-radius: 12px; padding: 16px; margin: 12px 0; scroll-margin-top: 16px; }
   .episode h3 { margin: 0 0 6px; font-size: 1.05em; }
   .episode .meta { color: #888; font-size: 0.85em; margin-bottom: 8px; }
   .episode p { line-height: 1.7; font-size: 0.95em; }
@@ -23,9 +33,39 @@
   a { color: #c96a1e; }
   .empty { color: #999; }
   footer { text-align: center; color: #aaa; font-size: 0.85em; margin-top: 48px; }
+  @media (max-width: 860px) {
+    .layout { flex-direction: column; }
+    .sidebar { position: static; width: auto; max-height: none; }
+    main { max-width: none; width: 100%; }
+  }
 </style>
 </head>
 <body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="side-head">
+      <img src="cover.jpg" alt="セキュリティニュースまとめ カバー">
+      <div class="side-title">セキュリティニュースまとめ</div>
+    </div>
+    <h2>エピソード一覧</h2>
+    <ul>
+      <!-- sidebar-episodes: 新しい回はこの下の先頭に追加する -->
+      <li><a href="#ep5">第5回「更新は、まとめて今のうちに」</a><span>2026年11月20日</span></li>
+      <li><a href="#ep4">第4回「見えない土台の穴が、暮らしに届く」</a><span>2026年11月19日</span></li>
+      <li><a href="#ep3">第3回「見慣れた場所ほど、気をつけて」</a><span>2026年11月18日</span></li>
+      <li><a href="#ep2">第2回「置きっぱなしのものが狙われる」</a><span>2026年11月17日</span></li>
+      <li><a href="#ep1">第1回「認証の落とし穴」</a><span>2026年11月17日</span></li>
+    </ul>
+    <h2>チラシ一覧</h2>
+    <ul>
+      <!-- sidebar-flyers: 新しいチラシはこの下の先頭に追加する -->
+      <li><a href="#flyer-2026-11-20">2026年11月20日 ― 更新は、まとめて今のうちに</a></li>
+      <li><a href="#flyer-2026-11-19">2026年11月19日 ― 見えない土台の穴が、暮らしに届く</a></li>
+      <li><a href="#flyer-2026-11-18">2026年11月18日 ― 見慣れた場所ほど、気をつけて</a></li>
+    </ul>
+    <h2>購読</h2>
+    <p class="side-links"><a href="feed.xml">RSSフィード</a><br><a href="https://open.spotify.com/show/1ldjnaTqPKiwFxJjxa2s5Q">Spotifyで聴く</a></p>
+  </aside>
 <main>
   <header>
     <img src="cover.jpg" alt="セキュリティニュースまとめ カバー">
@@ -44,35 +84,35 @@
 
   <h2>エピソード</h2>
   <!-- episodes: 新しい回はこの下の先頭に追加する -->
-  <div class="episode">
+  <div class="episode" id="ep5">
     <h3>第5回「更新は、まとめて今のうちに」（2026年11月20日）</h3>
     <div class="meta">6分00秒</div>
     <p>PHPのセキュリティリリース（修正版 8.5.13 / 8.4.28 / 8.3.37 / 8.2.36、17件のうち7件が最も深刻）、ノジマの情報漏えい第2報（総計7,179,818名）、Chrome 158（204件の弱点修正、うち6件が最も深刻）。テーマは、更新は、まとめて今のうちに。</p>
     <audio controls preload="metadata" src="ep5.mp3"></audio>
     <p><a href="ep5.mp3">MP3をダウンロード</a></p>
   </div>
-  <div class="episode">
+  <div class="episode" id="ep4">
     <h3>第4回「見えない土台の穴が、暮らしに届く」（2026年11月19日）</h3>
     <div class="meta">6分21秒</div>
     <p>NGINXのHTTP/2の深刻な弱点2件（CVE-2026-123007、CVE-2026-123633）、楽天証券の情報漏洩の続報（最大1,572万口座、テスト環境のデータに伏せ字なし）、米CISAが「悪用確認」の一覧に4件追加（家庭用NASのSynology DSM CVE-2024-10441を含む）、WordPressプラグインWP Duplicateの弱点。テーマは、見えない土台の穴が、暮らしに届く。</p>
     <audio controls preload="metadata" src="ep4.mp3"></audio>
     <p><a href="ep4.mp3">MP3をダウンロード</a></p>
   </div>
-  <div class="episode">
+  <div class="episode" id="ep3">
     <h3>第3回「見慣れた場所ほど、気をつけて」（2026年11月18日）</h3>
     <div class="meta">5分34秒</div>
     <p>Javaの重大な欠陥「Java4Shell」（CVE-2026-114938）、楽天証券の最大約447万口座の情報漏洩の可能性、Optimizely経由の有名サイト攻撃（iPhone狙い）、レゴランド・ジャパンの顧客情報漏洩。テーマは、見慣れた場所ほど、気をつけて。</p>
     <audio controls preload="metadata" src="ep3.mp3"></audio>
     <p><a href="ep3.mp3">MP3をダウンロード</a></p>
   </div>
-  <div class="episode">
+  <div class="episode" id="ep2">
     <h3>第2回「置きっぱなしのものが狙われる」（2026年11月17日）</h3>
     <div class="meta">6分15秒</div>
     <p>Confluence Data CenterとN-able N-centralで実際に攻撃を確認（CVE-2026-90436）、LinuxカーネルのNoisyTCP（CVE-2026-99288）、7-Zipのファイル名偽装（CVE-2026-130067）、Anthropicが脆弱性開示の猶予を短縮。テーマは、置きっぱなしのものが狙われる。</p>
     <audio controls preload="metadata" src="ep2.mp3"></audio>
     <p><a href="ep2.mp3">MP3をダウンロード</a></p>
   </div>
-  <div class="episode">
+  <div class="episode" id="ep1">
     <h3>第1回「認証の落とし穴」（2026年11月17日）</h3>
     <div class="meta">6分10秒</div>
     <p>認証バイパス3件（Apache Shiro CVE-2026-129349、Cyrus SASL CVE-2026-129483、DrayTek Vigor2960の脆弱性5件）、パスキー実装調査（USENIX Security '26、検証した103サイト全てに不備）、情報漏えい続報（日清食品LINE約137万件、一番くじ約41万件、ミツモア最大約37万件）、WordPressプラグイン2件（Lazy Blocks CVE-2026-127048、Auth Armor CVE-2026-110960）。テーマは、認証は仕組みより実装と運用。</p>
@@ -82,17 +122,17 @@
 
   <h2>今日のチラシ</h2>
   <!-- flyers: 新しいチラシはこの下の先頭に追加する -->
-  <div class="episode">
+  <div class="episode" id="flyer-2026-11-20">
     <h3>2026年11月20日 ― 更新は、まとめて今のうちに</h3>
     <p><a href="flyers/2026-11-20.webp"><img src="flyers/2026-11-20.webp" alt="2026年11月20日のチラシ" style="width:100%;border-radius:12px;"></a></p>
     <p>PHPのセキュリティリリース、ノジマの情報漏えい第2報、Chrome 158の3件。解説はよか。</p>
   </div>
-  <div class="episode">
+  <div class="episode" id="flyer-2026-11-19">
     <h3>2026年11月19日 ― 見えない土台の穴が、暮らしに届く</h3>
     <p><a href="flyers/2026-11-19.webp"><img src="flyers/2026-11-19.webp" alt="2026年11月19日のチラシ" style="width:100%;border-radius:12px;"></a></p>
     <p>NGINX、楽天証券の続報、家庭用NAS、WP Duplicateの4件。解説はとよ。</p>
   </div>
-  <div class="episode">
+  <div class="episode" id="flyer-2026-11-18">
     <h3>2026年11月18日 ― 見慣れた場所ほど、気をつけて</h3>
     <p><a href="flyers/2026-11-18.webp"><img src="flyers/2026-11-18.webp" alt="2026年11月18日のチラシ" style="width:100%;border-radius:12px;"></a></p>
     <p>Java4Shell、楽天証券、Optimizely経由の有名サイト攻撃、レゴランドの4件。解説はとよ＆よか。</p>
@@ -100,5 +140,6 @@
 
   <footer>セキュリティニュースまとめ ― よか＆とよ</footer>
 </main>
+</div>
 </body>
 </html>
