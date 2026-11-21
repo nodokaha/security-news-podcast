@@ -15,6 +15,15 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>セキュリティニュースまとめ：委託先から、また広がった（2026年11月22日）</title>
+      <description>第7回「委託先から、また広がった」。KARTEの不正アクセスでZOZO・WEARも漏えい（ZOZOTOWN約1,518万人、WEAR約1,393万人）、Peachは委託先ユミルリンク経由で899万7,106件、三井ショッピングパークアプリの不正アクセスと停止、予約システム「いつあき」「TSUNAGU」最終報（1,542,254件）、エレコム製ルーターの弱点（CVE-2026-101113）。テーマは、委託先から、また広がった。確かめるのは、公式のアプリから。</description>
+      <pubDate>Sun, 22 Nov 2026 08:00:00 +0900</pubDate>
+      <guid isPermaLink="false">sekiyurithi-news-ep7-20261122</guid>
+      <enclosure url="https://nodokaha.github.io/security-news-podcast/ep7.mp3" length="6550701" type="audio/mpeg"/>
+      <itunes:duration>6:49</itunes:duration>
+      <itunes:image href="https://nodokaha.github.io/security-news-podcast/cover.jpg"/>
+    </item>
+    <item>
       <title>セキュリティニュースまとめ：一つの穴から、いくつもの会社へ（2026年11月21日）</title>
       <description>第6回「一つの穴から、いくつもの会社へ」。プレイド「KARTE」の不正アクセスで三井住友銀（最大約1,400万件）、丸井（1,700万件超）、東京ガス（最大4万9,000人分）など複数社で一斉に情報漏えい。米CISAが「悪用確認」の一覧に4件追加（期限11月23日、家庭用NASの期限は今日11月21日）。WordPress 7.1.5（20件の弱点修正）。nginxの続報（乗っ取りの手順が公開、豪州政府が悪用を把握）。テーマは、一つの穴から、いくつもの会社へ。</description>
       <pubDate>Sat, 21 Nov 2026 08:00:00 +0900</pubDate>
