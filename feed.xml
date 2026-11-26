@@ -15,6 +15,15 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>セキュリティニュースまとめ：いつもの道具こそ、今日確かめて（2026年11月26日）</title>
+      <description>第11回「いつもの道具こそ、今日確かめて」。1Passwordに不正アクセス（保存したパスワードは無事、名前やメールアドレスが一部漏洩）、Firefox 161が110件の弱点を修正、WordPressプラグインWP Rocketの深刻な弱点（CVE-2026-125812、深刻度9.8、修正版3.24.2）、パルシステムがKARTE経由で1,997,972件が漏えい。テーマは、いつもの道具こそ、今日確かめて。確かめるのは、いつも公式から。</description>
+      <pubDate>Thu, 26 Nov 2026 08:00:00 +0900</pubDate>
+      <guid isPermaLink="false">sekiyurithi-news-ep11-20261126</guid>
+      <enclosure url="https://nodokaha.github.io/security-news-podcast/ep11.mp3" length="5520429" type="audio/mpeg"/>
+      <itunes:duration>5:44</itunes:duration>
+      <itunes:image href="https://nodokaha.github.io/security-news-podcast/cover.jpg"/>
+    </item>
+    <item>
       <title>セキュリティニュースまとめ：漏れた情報が、だましの材料に（2026年11月25日）</title>
       <description>第10回「漏れた情報が、だましの材料に」。京王グループの利用者 約1,063万件の個人情報が漏洩のおそれ（11月24日発表、9月のランサムウェア攻撃）、楽天証券の第2報（個人情報 約441万件、商品別資産情報 約168万件、ログインIDのみ 約1,198万口座）、ソニー損保が委託先への攻撃で約95万件が漏洩の可能性、第一生命を装う「アプリ最新版」の偽メールに注意、サイトの土台「Drupal」の弱点（CVE-2026-132165）が実際に悪用されCISAのKEVに追加。テーマは、漏れた情報が、だましの材料に。届いた連絡は、まず公式から。</description>
       <pubDate>Wed, 25 Nov 2026 08:00:00 +0900</pubDate>
