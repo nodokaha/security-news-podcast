@@ -15,6 +15,15 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>セキュリティニュースまとめ：預けた情報は、どこへ行くのか（2026年11月28日）</title>
+      <description>第13回「預けた情報は、どこへ行くのか」。マイナアプリの弱点3件（CVE-2026-130398ほか、修正版2026.11.0へ更新を）、三井ショッピングパークアプリの約311万人分の情報漏洩、ロリポップ!の約51万件とパスワード約12万件の漏洩（平文保存）、日経IDの約540万件がKARTE経由で漏洩。テーマは、預けた情報は、どこへ行くのか。今日できるのは、更新と確認。</description>
+      <pubDate>Sat, 28 Nov 2026 08:00:00 +0900</pubDate>
+      <guid isPermaLink="false">sekiyurithi-news-ep13-20261128</guid>
+      <enclosure url="https://nodokaha.github.io/security-news-podcast/ep13.mp3" length="4803117" type="audio/mpeg"/>
+      <itunes:duration>5:00</itunes:duration>
+      <itunes:image href="https://nodokaha.github.io/security-news-podcast/cover.jpg"/>
+    </item>
+    <item>
       <title>セキュリティニュースまとめ：無料の罠と、残っていた情報（2026年11月27日）</title>
       <description>第12回「無料の罠と、残っていた情報」。無料の壁紙アプリに忍び込むマルウェア「SYS010」（Facebook広告経由、ブラウザに悪意ある拡張機能を強制インストール、GmailやOutlookのメール読み取り・削除）、Chrome 158の重大な弱点（CVE-2026-134401、深刻度9.6、修正版158.0.8127.88以上）、KARTEの続報（四国電力は約85万件に、ワールドは最大932万件のおそれ、ミスターマックス最大約180万件）、米CISAが「実際に悪用されている弱点」一覧に10件追加（スーパーの冷蔵庫を管理する装置も）。テーマは、無料の罠と、残っていた情報。無料のものほど、裏側を確かめて。</description>
       <pubDate>Fri, 27 Nov 2026 08:00:00 +0900</pubDate>
