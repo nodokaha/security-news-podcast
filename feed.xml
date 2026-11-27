@@ -15,6 +15,15 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>セキュリティニュースまとめ：無料の罠と、残っていた情報（2026年11月27日）</title>
+      <description>第12回「無料の罠と、残っていた情報」。無料の壁紙アプリに忍び込むマルウェア「SYS010」（Facebook広告経由、ブラウザに悪意ある拡張機能を強制インストール、GmailやOutlookのメール読み取り・削除）、Chrome 158の重大な弱点（CVE-2026-134401、深刻度9.6、修正版158.0.8127.88以上）、KARTEの続報（四国電力は約85万件に、ワールドは最大932万件のおそれ、ミスターマックス最大約180万件）、米CISAが「実際に悪用されている弱点」一覧に10件追加（スーパーの冷蔵庫を管理する装置も）。テーマは、無料の罠と、残っていた情報。無料のものほど、裏側を確かめて。</description>
+      <pubDate>Fri, 27 Nov 2026 08:00:00 +0900</pubDate>
+      <guid isPermaLink="false">sekiyurithi-news-ep12-20261127</guid>
+      <enclosure url="https://nodokaha.github.io/security-news-podcast/ep12.mp3" length="6537645" type="audio/mpeg"/>
+      <itunes:duration>6:48</itunes:duration>
+      <itunes:image href="https://nodokaha.github.io/security-news-podcast/cover.jpg"/>
+    </item>
+    <item>
       <title>セキュリティニュースまとめ：いつもの道具こそ、今日確かめて（2026年11月26日）</title>
       <description>第11回「いつもの道具こそ、今日確かめて」。1Passwordに不正アクセス（保存したパスワードは無事、名前やメールアドレスが一部漏洩）、Firefox 161が110件の弱点を修正、WordPressプラグインWP Rocketの深刻な弱点（CVE-2026-125812、深刻度9.8、修正版3.24.2）、パルシステムがKARTE経由で1,997,972件が漏えい。テーマは、いつもの道具こそ、今日確かめて。確かめるのは、いつも公式から。</description>
       <pubDate>Thu, 26 Nov 2026 08:00:00 +0900</pubDate>
